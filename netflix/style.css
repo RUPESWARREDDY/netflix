@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    height: 650px;
+    width:100%;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgb(0,0,0,0.7),rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url("./images/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    
+}
+.part1{
+    height:100px;
+    width:100%;
+    display: flex;
+}
+.p1{
+    height:100px;
+    width:50%;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.p2{
+    height:100px;
+    width:50%;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+#select{
+    height: 35px;
+    width:130px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+button{
+    height: 35px;
+    width:80px;
+    background-color: rgb(243, 6, 6);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.txt{
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    font-weight:bolder;
+    font-family: sans-serif;
+    position: absolute;
+    top:300px;
+    left:200px;
+}
+.txt2{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    position: absolute;
+    top:360px;
+    left:400px;
+}
+.txt3{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    top:410px;
+    left:300px;
+}
+.input1{
+    height: 50px;
+    width:400px;
+    background-color:silver;
+    text-align: left;
+    padding-left: 15px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom:130px;
+    left:320px;
+}
+.b2{
+    height: 50px;
+    width:200px;
+    background-color: rgb(247, 9, 9);
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border: 0px;
+    position: absolute;
+    bottom:130px;
+    right:320px;
+    border-radius: 5px;
+}
+hr{
+    height: 7px;
+    border: 0px;
+    background-color: rgb(48, 48, 48);
+}
+.body{
+    height: 500px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+.bd1{
+ color: white;
+ height: 500px;
+ width: 50%;
+ position: absolute;
+ left:50px
+}
+video{
+    position: absolute;
+    top: 155px;
+    right:187px;
+    z-index: 0;
+}
+.bd2{
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    right:-100px;
+    top:100px;
+}
+h1{
+    font-weight: bolder;
+    font-size: 44px;
+    font-family: sans-serif;
+    position: absolute;
+    left:150px;
+    top:200px;
+}
+p{
+    font-size: 24px;
+    font-family: sans-serif;
+    position: absolute;
+    left:150px;
+    top:260px; 
+}
+.body2{
+    height: 500px;
+    width:100%;
+    background-color: black;
+    position: relative;
+}
+.bbox{
+    height: 100px;
+    width:250px;
+    border: 1px solid gainsboro;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    left:240px;
+    top:280px;
+    z-index: 1;
+}
+.bp1{
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top:20px;
+    left:90px
+}
+.bp2{
+    color:blue;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top:40px;
+    left:90px
+}
+.pic2{
+    position: absolute;
+    left:160px;
+    top:120px;
+}
+.hh{
+    color: white;
+    font-weight: bolder;
+    font-size: 54px;
+    font-family: sans-serif;
+    position: absolute;
+    left:600px;
+    top:150px;
+}
+.pp{
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    position: absolute;
+    left:600px;
+    top:350px; 
+}
+.body3{
+    height: 500px;
+    width:100%;
+    background-color: black;
+    position: relative;
+}
+.pic3{
+    position: absolute;
+    left:660px;
+    top:120px;
+}
+.hh2{
+    color: white;
+    font-weight: bolder;
+    font-size: 44px;
+    font-family: sans-serif;
+    position: absolute;
+    left:150px;
+    top:200px;
+}
+.pp2{
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    position: absolute;
+    left:150px;
+    top:260px; 
+}
+.body4{
+    height: 500px;
+    width:100%;
+    background-color: black;
+    position: relative;
+}
+.pic4{
+    position: absolute;
+    left:100px;
+    top:120px;
+}
+.hh4{
+    color: white;
+    font-weight: bolder;
+    font-size: 54px;
+    font-family: sans-serif;
+    position: absolute;
+    left:600px;
+    top:150px;
+}
+.pp4{
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    position: absolute;
+    left:600px;
+    top:300px; 
+}
+.body5{
+    height: 900px;
+    width:100%;
+    background-color: black;
+    position: relative;
+}
+.hh5{
+    color: white;
+    font-size: 54px;
+    font-weight:bolder;
+    position: absolute;
+    top: 50px;
+    left:240px;
+}
+.a2{
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+   position: absolute;
+   left: 30px;
+   top:30px;
+    
+}
+.edge{
+    text-align: right;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    font-size: 54px;
+}
+.box1{
+    height: 90px;
+    width:900px;
+    border: 1px solid black;
+    background-color: rgb(81, 80, 80);
+    position: absolute;
+    top: 120px;
+    left:170px;
+}
+.box2{
+    height: 90px;
+    width:900px;
+    border: 1px solid black;
+    background-color: rgb(81, 80, 80);
+    position: absolute;
+    top: 220px;
+    left:170px;
+}.box3{
+    height: 90px;
+    width:900px;
+    border: 1px solid black;
+    background-color: rgb(81, 80, 80);
+    position: absolute;
+    top: 320px;
+    left:170px;
+}.box4{
+    height: 90px;
+    width:900px;
+    border: 1px solid black;
+    background-color: rgb(81, 80, 80);
+    position: absolute;
+    top: 420px;
+    left:170px;
+}.box5{
+    height: 90px;
+    width:900px;
+    border: 1px solid black;
+    background-color: rgb(81, 80, 80);
+    position: absolute;
+    top: 520px;
+    left:170px;
+}.box6{
+    height: 90px;
+    width:900px;
+    border: 1px solid black;
+    background-color: rgb(81, 80, 80);
+    position: absolute;
+    top: 620px;
+    left:170px;
+}
+.ppp{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 750px;
+    left:330px;
+}
+.input2{
+    height: 50px;
+    width:400px;
+    color: white;
+    background-color:rgb(100, 99, 99);
+    text-align: left;
+    padding-left: 15px;
+    border: 3px solid rgb(215, 209, 209);
+    border-radius: 5px;
+    position: absolute;
+    bottom:50px;
+    left:320px;
+}
+.b3{
+    height: 53px;
+    width:200px;
+    background-color: rgb(247, 9, 9);
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border: 0px;
+    position: absolute;
+    bottom:50px;
+    right:310px;
+    border-radius: 5px;
+}
+.footer{
+    height: 450px;
+    width:100%;
+    background-color: black;
+    position:relative;
+}
+.f1{
+    color: white;
+    position: absolute;
+    top:70px;
+    left:150px;
+}
+.f2{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.fbox1{
+    height: 200px;
+    width:200px;
+    border: 0px solid white;
+    margin-top: 140px;
+}
+a{
+    color: white;
+}
+#select2{
+    height: 35px;
+    width:130px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top:350px;
+    left:150px;
+}
+.fp1{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top:400px;
+    left:150px;
+}
